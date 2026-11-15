@@ -1,11 +1,12 @@
-# State Estimation
+# Path Planning
 
-Exploration of how robotic systems estimate motion and position from noisy sensor data. This repo focuses on the mathematics behind uncertainty, probabilistic filtering, and sensor fusion, with implementations and simulations to see how different estimators behave.
+A personal study of the algorithms and mathematics behind finding paths through different environments. From graph search on simple grids to motion-aware planning for robotics, this repo brings together implementations, visualizations, and experiments with different planning methods.
 
 ## Topics
 
-- **Probability and uncertainty:** Gaussian distributions, covariance, and Bayesian inference.
-- **Motion models:** Predicting position and velocity from a system's dynamics.
-- **Kalman filters:** Prediction, measurement updates, Kalman gain, and covariance propagation.
-- **Extended Kalman filters:** Jacobians and nonlinear motion or measurement models.
-- **Sensor fusion:** Combining odometry, IMU, and position measurements.
+- **Graph search:** Nodes, edges, traversal, path costs, and search strategies.
+- **Dijkstra and A\*:** Cost functions, heuristics, optimality, and search efficiency.
+- **Heuristics:** Manhattan, Euclidean, and other distance estimates.
+- **Maps and obstacles:** Occupancy grids, collision checking, and obstacle inflation.
+- **Sampling-based planning:** RRT and RRT*.
+- **Motion-aware planning:** Hybrid A*, path smoothing, and trajectory generation.
